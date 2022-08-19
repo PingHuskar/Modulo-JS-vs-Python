@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: salmon;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.container img {
+  width: 20vw;
+}
+.container .js, .container .py {
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container .js {
+  width: 30vw;
+}
+.container .py {
+  width: 30vw;
+}
+.container .input {
+  display: flex;
+  flex-flow: column;
+  width: 30vw;
+  height: 5vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+.container .input .title {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 15vh;
+  font-size: 5vh;
+}
+.container p {
+  margin-top: 2vh;
+  font-size: 5vw;
+  text-align: center;
+  font-size: bold;
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}/*# sourceMappingURL=style.css.map */
